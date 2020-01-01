@@ -5,7 +5,6 @@ import java.util.*;
 public class LeftViewAndRightViewOfTree {
 
     private static Map<Integer,List<Integer>> levelDataMap = new HashMap<>();
-    private static Queue<Node> integers = new ArrayDeque<>();
 
     private static void levelOrderTraversal(Node root,int level){
         if (root != null){
@@ -47,6 +46,14 @@ public class LeftViewAndRightViewOfTree {
         rightView();
         System.out.println("\nLeft");
         leftView();
+        /** out put
+         * 15
+         * 1 14 3 7 4 5 15 6 13 10 11 2 12 8 9
+         * Right
+         * 1 14 15 7 13 10 11 12
+         * Left
+         * 1 14 3 2 4 5 6 9
+         */
     }
 
 
