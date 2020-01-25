@@ -1,12 +1,12 @@
 
-N
-squid:S106"9Replace this use of System.out or System.err by a logger.(ä÷©Q
 T
 squid:S106-"9Replace this use of System.out or System.err by a logger.(Ö²ïýøÿÿÿÿ
 T
 squid:S106"9Replace this use of System.out or System.err by a logger.(ˆëÙÑùÿÿÿÿ
+N
+squid:S106"9Replace this use of System.out or System.err by a logger.(ä÷©Q
+Ksquid:S2864"4Iterate over the "entrySet" instead of the "keySet".(Ò—¿±
+Ksquid:S2864"4Iterate over the "entrySet" instead of the "keySet".(Ò—¿±
 O
 squid:S106/"9Replace this use of System.out or System.err by a logger.(äÈ¶“
-Ksquid:S2864"4Iterate over the "entrySet" instead of the "keySet".(Ò—¿±
-Ksquid:S2864"4Iterate over the "entrySet" instead of the "keySet".(Ò—¿±
 gsquid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(»ž•ûÿÿÿÿ
