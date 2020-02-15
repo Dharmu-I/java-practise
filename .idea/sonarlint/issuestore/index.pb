@@ -53,3 +53,7 @@ v
 Fsrc/main/java/com/java/practise/dynamic_programming/Combinatorics.java,5/f/5fa38f589cb2a10a3bc06ec656a0c244579cb54a
 x
 Hsrc/main/java/com/java/practise/dynamic_programming/MinimumPathCost.java,f/9/f91d1577bc6f09c6fcc60185af6dff5d02e9b5eb
+‚
+Rsrc/main/java/com/java/practise/dynamic_programming/StringEditReplaceOrDelete.java,3/2/327f3abad59164a745e411d5ba870cdb8b058785
+s
+Csrc/main/java/com/java/practise/dynamic_programming/ChessMoves.java,6/5/659da9bad170fd32a3aeb9a0a8334aa7a34f67d1
