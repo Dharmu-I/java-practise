@@ -5,7 +5,6 @@ import com.java.practise.parkinglot.entities.Vehicle;
 import com.java.practise.parkinglot.enums.ProgramArgs;
 import com.java.practise.parkinglot.enums.VehicleType;
 import com.java.practise.parkinglot.exceptions.*;
-import com.java.practise.parkinglot.gojek.exceptions.*;
 import com.java.practise.parkinglot.impls.ParkingLotActionImpl;
 import com.java.practise.parkinglot.utils.ObjectBuilder;
 

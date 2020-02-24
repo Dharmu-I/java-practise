@@ -2,7 +2,6 @@ package com.java.practise.parkinglot.utils;
 
 import com.java.practise.parkinglot.entities.*;
 import com.java.practise.parkinglot.exceptions.InvalidVehicleTypeException;
-import com.java.practise.parkinglot.gojek.entities.*;
 import com.java.practise.parkinglot.enums.VehicleType;
 
 public class ObjectBuilder {

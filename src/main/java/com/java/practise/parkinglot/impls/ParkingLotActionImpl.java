@@ -2,7 +2,6 @@ package com.java.practise.parkinglot.impls;
 
 import com.java.practise.parkinglot.actions.*;
 import com.java.practise.parkinglot.constants.ParkingLotConstants;
-import com.java.practise.parkinglot.gojek.actions.*;
 import com.java.practise.parkinglot.entities.Vehicle;
 import com.java.practise.parkinglot.exceptions.InvalidSlotException;
 import com.java.practise.parkinglot.exceptions.NoEmptySlotException;
