@@ -1,0 +1,14 @@
+
+lsquid:S1192"UDefine a constant instead of duplicating this literal "Inappropriate braces" 3 times.(Ü¢·Ÿ
+fsquid:S1149	"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(‹ ä
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ŸÓ²¸ýÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ü¢·Ÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ü¢·Ÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ü¡¼íÿÿÿÿÿ
+O
+squid:S106 "9Replace this use of System.out or System.err by a logger.(Ü¢·Ÿ
+O
+squid:S106$"9Replace this use of System.out or System.err by a logger.(ØéÙõ

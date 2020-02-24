@@ -1,0 +1,6 @@
+
+lsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ÿÿ¯ûÿÿÿÿ
+isquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ã´èÍ
+Hsquid:S1264",Replace this "for" loop with a "while" loop.(ÍæÎ¥ùÿÿÿÿ
+T
+squid:S106,"9Replace this use of System.out or System.err by a logger.(ÿ›üûÿÿÿÿ

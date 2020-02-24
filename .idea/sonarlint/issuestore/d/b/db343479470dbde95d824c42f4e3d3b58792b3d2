@@ -1,0 +1,13 @@
+
+^squid:S2259"BA "NullPointerException" could be thrown; "out_" is nullable here.(¼—–™ÿÿÿÿÿ
+isquid:S00117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óİöÅ
+isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı»”
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–ô½ºûÿÿÿÿ
+isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ ¯÷
+isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾¬ÄÖ
+T
+squid:S106	"9Replace this use of System.out or System.err by a logger.(Óú‚×ùÿÿÿÿ
+T
+squid:S106'"9Replace this use of System.out or System.err by a logger.(º‘Ô‹úÿÿÿÿ
+=squid:S1168+"&Return an empty array instead of null.(¥¹ï

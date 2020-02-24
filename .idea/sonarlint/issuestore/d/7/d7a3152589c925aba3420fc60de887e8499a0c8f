@@ -1,0 +1,14 @@
+
+Qsquid:S1444":Make this "public static CHILD_ADD_SUCCESSFUL" field final(ÏÍ‘á
+Lsquid:S1444"6Make this "public static PERSON_NOT_FOUND" field final(¿‡›H
+Tsquid:S1444	"=Make this "public static NO_RELATIONSHIP_DETAILS" field final(³°Íµ
+Rsquid:S1444";Make this "public static CHILD_ADDITION_FAILED" field final(ÚÅªƒ
+"squid:ClassVariableVisibilityCheck"`Make CHILD_ADD_SUCCESSFUL a static final constant or non-public and provide accessors if needed.(ÏÍ‘á
+‰"squid:ClassVariableVisibilityCheck"\Make PERSON_NOT_FOUND a static final constant or non-public and provide accessors if needed.(¿‡›H
+‘"squid:ClassVariableVisibilityCheck	"cMake NO_RELATIONSHIP_DETAILS a static final constant or non-public and provide accessors if needed.(³°Íµ
+"squid:ClassVariableVisibilityCheck"aMake CHILD_ADDITION_FAILED a static final constant or non-public and provide accessors if needed.(ÚÅªƒ
+vsquid:S3008"_Rename this field "CHILD_ADD_SUCCESSFUL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÍ‘á
+qsquid:S3008"[Rename this field "PERSON_NOT_FOUND" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿‡›H
+ysquid:S3008	"bRename this field "NO_RELATIONSHIP_DETAILS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³°Íµ
+wsquid:S3008"`Rename this field "CHILD_ADDITION_FAILED" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÅªƒ
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(ÁÈ‰üÿÿÿÿ

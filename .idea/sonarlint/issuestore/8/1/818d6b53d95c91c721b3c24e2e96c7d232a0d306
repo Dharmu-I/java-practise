@@ -1,0 +1,15 @@
+
+\squid:S1192"FDefine a constant instead of duplicating this literal " and " 3 times.(×ê|
+hsquid:S1192"RDefine a constant instead of duplicating this literal "Element found at " 3 times.(×ê|
+`squid:S1192"JDefine a constant instead of duplicating this literal " position" 3 times.(×ê|
+t
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(¶Åº°ıÿÿÿÿ
+T
+squid:S106	"9Replace this use of System.out or System.err by a logger.(×¦ÉËùÿÿÿÿ
+N
+squid:S106"9Replace this use of System.out or System.err by a logger.(×ê|
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¦…Å»úÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(å·˜Ñşÿÿÿÿ
+Tsquid:S1197'"8Move the array designator from the variable to the type.(©ßıÒşÿÿÿÿ

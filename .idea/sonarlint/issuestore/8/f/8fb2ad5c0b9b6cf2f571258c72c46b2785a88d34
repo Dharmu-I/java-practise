@@ -1,0 +1,8 @@
+
+asquid:S2259"JA "NullPointerException" could be thrown; "returnValues" is nullable here.(òÊÔÊ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ªÅ½®ıÿÿÿÿ
+=squid:S1168"&Return an empty array instead of null.(¥¹ï
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(òÊÔÊ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(úÑâ–

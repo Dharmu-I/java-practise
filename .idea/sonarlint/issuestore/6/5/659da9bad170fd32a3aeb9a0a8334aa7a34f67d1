@@ -1,8 +1,8 @@
 
 Bsquid:S1659
 "Declare "y" on a separate line.(¡Ê²‘şÿÿÿÿ8Í×è³….
+[squid:S1197"8Move the array designator from the variable to the type.(âØ—™úÿÿÿÿ8˜²Ş³….
+ƒsquid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ëÉøå8Í×è³….
 Vsquid:S1197"8Move the array designator from the variable to the type.(Ö¯ÈÏ8˜²Ş³….
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(­Ü¿Ëüÿÿÿÿ8ÚÜúĞ„.
-[squid:S1197"8Move the array designator from the variable to the type.(âØ—™úÿÿÿÿ8˜²Ş³….
-ƒsquid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ëÉøå8Í×è³….

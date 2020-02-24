@@ -1,0 +1,11 @@
+
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹ŸýÁýÿÿÿÿ8ˆÅÞÃ†.
+psquid:S00117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î§žÇ8ˆÅÞÃ†.
+T
+squid:S1060"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+T
+squid:S1066"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+_squid:S2259"BA "NullPointerException" could be thrown; "head" is nullable here.(äúØ8ˆÅÞÃ†.
+T
+squid:S1063"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ

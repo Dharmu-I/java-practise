@@ -1,0 +1,14 @@
+
+Usquid:S4973"9Use the "equals" method if value comparison was intended.(®šŠ³úÿÿÿÿ
+Psquid:S4973)"9Use the "equals" method if value comparison was intended.(ùŒ¦£
+lsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(µ¹Šßıÿÿÿÿ
+gsquid:S1149	"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÿÓÇÄ
+lsquid:S1149%"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(“¼ª˜ûÿÿÿÿ
+lsquid:S11496"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ÿÿ¯ûÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ëıìşÿÿÿÿ
+O
+squid:S106 "9Replace this use of System.out or System.err by a logger.(Ú¥ı
+N
+squid:S106""9Replace this use of System.out or System.err by a logger.(à…§#
+bsquid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(º¸Ì†

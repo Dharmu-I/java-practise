@@ -1,10 +1,10 @@
 
+T
+squid:S1060"9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿ
+|squid:S1149("eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(«ÙÏè
 {squid:S1149 "eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(œ¡I
+Msquid:S1444"1Make this "public static incrementor" field final(ª£Óûÿÿÿÿ
+%squid:RedundantThrowsDeclarationCheck."lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø
 T
 squid:S106"9Replace this use of System.out or System.err by a logger.(îÉõûÿÿÿÿ
 Š"squid:ClassVariableVisibilityCheck"WMake incrementor a static final constant or non-public and provide accessors if needed.(ª£Óûÿÿÿÿ
-|squid:S1149("eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(«ÙÏè
-Msquid:S1444"1Make this "public static incrementor" field final(ª£Óûÿÿÿÿ
-T
-squid:S1060"9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿ
-%squid:RedundantThrowsDeclarationCheck."lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø
