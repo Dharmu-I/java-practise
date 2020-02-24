@@ -1,7 +1,6 @@
 package com.java.practise.string;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class CharToDeleteMakeStringAnagram {
 
@@ -34,7 +33,25 @@ public class CharToDeleteMakeStringAnagram {
         return counter + mapCharSum;
     }
 
+    public static int betterSolution(String a, String b){
+        int[] arrays = new int[52];
+        for (int i = 0; i < a.length(); i++){
+            int index = a.charAt(i)-'a';
+            arrays[index]++;
+        }
+        for (int i = 0; i < b.length(); i++){
+            int index = b.charAt(i)-'a';
+            arrays[index]--;
+        }
+        int count = 0;
+        for (int i = 0; i < arrays.length; i++){
+            count += Math.abs(arrays[i]);
+        }
+        return count;
+    }
+
     public static void main(String[] args) {
         System.out.println(makeAnagram("fcrxzwscanmligyxyvym", "jxwtrhvujlmrpdoqbisbwhmgpmeoke"));
+        System.out.println(betterSolution("fcrxzwscanmligyxyvym", "jxwtrhvujlmrpdoqbisbwhmgpmeoke"));
     }
 }
