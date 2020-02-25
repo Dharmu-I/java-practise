@@ -1,5 +1,7 @@
 package com.java.practise.array;
 
+import java.util.Arrays;
+
 public class SumOfEvenNumberOfQuery {
 
     public int[] sumEvenAfterQueries(int[] A, int[][] queries) {
@@ -36,6 +38,6 @@ public class SumOfEvenNumberOfQuery {
         b[0][1] = 0;
         b[1][0] = 3;
         b[1][1] = 0;
-        System.out.println(new SumOfEvenNumberOfQuery().sumEvenAfterQueries(a,b));
+        System.out.println(Arrays.toString(new SumOfEvenNumberOfQuery().sumEvenAfterQueries(a, b)));
     }
 }
