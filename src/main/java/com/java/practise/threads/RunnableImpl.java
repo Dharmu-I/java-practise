@@ -1,15 +1,29 @@
 package com.java.practise.threads;
 
+import static com.java.practise.threads.DisplayClass.display;
+
 public class RunnableImpl implements Runnable {
     @Override
     public void run() {
-        for (int i=0;i<10;i++) {
-            System.out.println("In run method");
+        synchronized (DisplayClass.class) {
+            display();
         }
     }
 
     public static void main(String[] args) {
-            RunnableImpl runnable = new RunnableImpl();
-            runnable.run();
+        Thread t1 = new Thread(new RunnableImpl());
+        Thread t2 = new Thread(new RunnableImpl());
+        t1.start();
+        t2.start();
+    }
+
+}
+
+class DisplayClass {
+
+    public static void display() {
+        for (int i = 0; i < 10; i++) {
+            System.out.println("In run method " + i);
+        }
     }
 }
