@@ -1,12 +1,12 @@
 
-psquid:S00117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¹ßâ8×Ğéùû-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(…¸•Ä8²¯èùû-
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(‹¾úúüÿÿÿÿ8ƒŠßùû-
 [
 squid:S106
 "9Replace this use of System.out or System.err by a logger.(–µé›ıÿÿÿÿ8µ¦Şùû-
 [
-squid:S106"9Replace this use of System.out or System.err by a logger.(²¶ÿÿÿÿÿ8ÄäÅùû-
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹¾úúüÿÿÿÿ8ƒŠßùû-
 Bsquid:S1659	"$Declare "prev_j" on a separate line.(Œ¹ßâ8Œëûùû-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(…¸•Ä8²¯èùû-
+psquid:S00117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¹ßâ8×Ğéùû-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(²¶ÿÿÿÿÿ8ÄäÅùû-

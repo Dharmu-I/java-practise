@@ -1,6 +1,6 @@
 
-Tsquid:S1197"8Move the array designator from the variable to the type.(”üŒÄùÿÿÿÿ
-ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›¼‹ıÿÿÿÿ
 O
 squid:S106"9Replace this use of System.out or System.err by a logger.(ĞÌûı
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›¼‹ıÿÿÿÿ
+Tsquid:S1197"8Move the array designator from the variable to the type.(”üŒÄùÿÿÿÿ
 Psquid:S1068"4Remove this unused "numberOfVertises" private field.(¸¡èíûÿÿÿÿ
