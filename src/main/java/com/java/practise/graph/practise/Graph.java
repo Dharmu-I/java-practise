@@ -8,7 +8,7 @@ public class Graph {
     int vertices;
     LinkedList<Integer> graph [];
 
-    Graph(int v){
+    public Graph(int v){
         this.vertices = v;
         graph = new LinkedList[v];
         for (int i = 0; i < v; i++){
