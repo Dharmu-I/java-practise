@@ -36,8 +36,39 @@ public class LongestNonRepeatingSubString {
         return true;
     }
 
+    public int approachNew(String s){
+        int i = 0;
+        int j = 1;
+        int maxLength = 0;
+        if (s.length() == 0){
+            return 0;
+        }else if (s.length() == 1){
+            return 1;
+        }
+
+        while (i < s.length() && j < s.length()){
+            if (checkUniqueChars(i, j, s)){
+                if (Math.abs(i-j) > maxLength) {
+                    maxLength = Math.abs(i - j);
+                }
+                j++;
+            }else {
+                if (i < j) {
+                    i++;
+                }else {
+                    j++;
+                }
+            }
+        }
+        return maxLength+1;
+    }
+
     public static void main(String[] args) {
 
         System.out.println(new LongestNonRepeatingSubString().lengthOfLongestSubstring("abcabcbb"));
+        System.out.println(new LongestNonRepeatingSubString().approachNew("abcabcbb"));
+        System.out.println(new LongestNonRepeatingSubString().approachNew(""));
+        System.out.println(new LongestNonRepeatingSubString().approachNew(" "));
+        System.out.println(new LongestNonRepeatingSubString().approachNew("pwwkew"));
     }
 }
