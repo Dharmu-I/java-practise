@@ -8,9 +8,9 @@ public class HeapExample {
     public void heapify(Heap heap, int n) {
         Queue<Heap> integerQueue = new LinkedList<>();
         integerQueue.add(heap);
-        while (!integerQueue.isEmpty()){
+        while (!integerQueue.isEmpty()) {
             Heap polledHeap = integerQueue.poll();
-            if (n < polledHeap.value){
+            if (n < polledHeap.value) {
                 int temp = polledHeap.value;
                 polledHeap.value = n;
                 n = temp;
@@ -18,12 +18,12 @@ public class HeapExample {
             if (polledHeap.left == null) {
                 polledHeap.left = new Heap(n);
                 break;
-            }else {
+            } else {
                 integerQueue.add(polledHeap);
                 integerQueue.add(polledHeap.left);
             }
 
-            if(polledHeap.right == null){
+            if (polledHeap.right == null) {
                 polledHeap.right = new Heap(n);
                 break;
             } else {
@@ -55,7 +55,7 @@ public class HeapExample {
 
     public static void main(String[] args) {
         HeapExample heapExample = new HeapExample();
-        int[] values = {3, 8, 6, 5, 2, 4,7,1};
+        int[] values = {3, 8, 6, 5, 2, 4, 7, 1};
         Heap heap = new Heap(values[0]);
         heapExample.insertNodes(values, heap);
         heapExample.display(heap);
