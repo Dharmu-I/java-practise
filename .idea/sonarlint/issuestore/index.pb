@@ -423,3 +423,9 @@ w
 Gsrc/main/java/com/java/practise/linked_list/MergeNSortedLinkedList.java,1/8/186b6ea19d6a5b83a7e6e65404adcd11ab1b60cf
 x
 Hsrc/main/java/com/java/practise/linked_list/InteractionOfLinkedList.java,c/d/cdc27da6e88d8a475c4c0ad30041fccb0b90710f
+e
+5src/main/java/com/java/practise/heap/HeapExample.java,c/f/cfe527961e8499a1331d565cb5bb910d845ca9d1
+v
+Fsrc/main/java/com/java/practise/string/GenerateOddCharacterString.java,7/c/7ca79e9d94a699e9a782ff4eab9d17a808fb9634
+e
+5src/main/java/com/java/practise/tree/TrieExample.java,a/b/ab48564eba38df79b102d06249ca861b2473fd99

@@ -1,0 +1,5 @@
+
+Ÿsquid:S1186	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘8ÈÑ•Œ.
+Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“›ñ8ÅÀ––Œ.
+Fsquid:S1068"(Remove this unused "size" private field.(Ğ€ó¸8óÇ™–Œ.
+?squid:S1170"!Make this final field static too.(Ğ€ó¸8Öø™–Œ.
