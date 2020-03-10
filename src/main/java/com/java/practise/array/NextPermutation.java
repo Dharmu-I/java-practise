@@ -5,36 +5,34 @@ import java.util.Arrays;
 public class NextPermutation {
 
     public void nextPermutation(int[] nums) {
-        int index = 0;
-        while (index < nums.length - 1) {
+        int index = nums.length - 2;
+        while (index >= 0) {
             if (nums[index] < nums[index + 1]) {
                 break;
             }
-            index++;
+            index--;
         }
-        if ((index == nums.length - 1)) {
+        if ((index <= 0)) {
             Arrays.sort(nums);
-            return;
+        } else {
+            int j = swapWithNextBiggerNumber(index + 1, nums);
+            int temp = nums[index];
+            nums[index] = nums[j];
+            nums[j] = temp;
+            Arrays.sort(nums, index + 1, nums.length);
         }
-        swapWithNextBiggerNumber(index, nums);
     }
 
-    public void swapWithNextBiggerNumber(int index, int[] nums) {
-        int currentNumber = nums[index];
-        int smallerNumber = Integer.MAX_VALUE;
-        int swapIndex = index;
-        int currentIndex = index;
-        while (index < nums.length) {
-            if (nums[index] > currentNumber && smallerNumber > nums[index]) {
-                smallerNumber = nums[index];
-                swapIndex = index;
+    public int swapWithNextBiggerNumber(int index, int[] nums) {
+        int smallIndex = index;
+        int gt = nums[index - 1];
+
+        for (int i = index; i < nums.length; i++) {
+            if (nums[i] > gt && nums[i] < nums[smallIndex]) {
+                smallIndex = i;
             }
-            index++;
         }
-        int temp = nums[swapIndex];
-        nums[swapIndex] = nums[currentIndex];
-        nums[currentIndex] = temp;
-        Arrays.sort(nums, currentIndex+1, nums.length);
+        return smallIndex;
     }
 
     public static void main(String[] args) {
@@ -47,6 +45,11 @@ public class NextPermutation {
         System.out.println(Arrays.toString(nums2));
         new NextPermutation().nextPermutation(nums2);
         System.out.println(Arrays.toString(nums2));
+        System.out.println("===============");
+        int[] nums3 = {3, 2, 1};
+        System.out.println(Arrays.toString(nums3));
+        new NextPermutation().nextPermutation(nums3);
+        System.out.println(Arrays.toString(nums3));
 
     }
 }
