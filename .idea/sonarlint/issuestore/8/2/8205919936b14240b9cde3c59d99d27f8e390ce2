@@ -1,14 +1,0 @@
-
-psquid:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(ã•Å„
-Osquid:S1197!"8Move the array designator from the variable to the type.(Í†³Ä
-Osquid:S1197
-"8Move the array designator from the variable to the type.(ÍÜ»„
-|squid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Çòÿ‚
-|squid:S1149""eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ã•Å„
-Tsquid:S1197'"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿ
-O
-squid:S106,"9Replace this use of System.out or System.err by a logger.(‡í¼À
-Tsquid:S1197("8Move the array designator from the variable to the type.(¯í«¥üÿÿÿÿ
-|squid:S1149
-"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÍÜ»„
-psquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Çòÿ‚
