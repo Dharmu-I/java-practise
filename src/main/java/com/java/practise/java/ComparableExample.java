@@ -4,16 +4,16 @@ import java.util.*;
 
 public class ComparableExample {
 
-    private static void display(List<Person> personList){
-        for (Person person : personList){
-            System.out.println("Name : "+person.name+"\t Age : "+person.age);
+    private static void display(List<Person> personList) {
+        for (Person person : personList) {
+            System.out.println("Name : " + person.name + "\t Age : " + person.age);
         }
     }
 
     public static void main(String[] args) {
         List<Person> personList = new ArrayList<>();
-        for (int i = 0; i < 5; i++){
-            personList.add(new Person(new Random().nextInt(99), "Person"+i));
+        for (int i = 0; i < 5; i++) {
+            personList.add(new Person(new Random().nextInt(99), "Person" + i));
         }
         System.out.println("===Before sort====");
         display(personList);
@@ -23,7 +23,7 @@ public class ComparableExample {
     }
 }
 
-class Person implements Comparable<Person>{
+class Person implements Comparable<Person> {
 
     int age;
 
@@ -36,6 +36,12 @@ class Person implements Comparable<Person>{
 
     @Override
     public int compareTo(Person o) {
-        return this.age - o.age;
+        if (this.age > o.age) {
+            return 1;
+        }
+        if (this.age < o.age) {
+            return -11;
+        }
+        return 0;
     }
 }
