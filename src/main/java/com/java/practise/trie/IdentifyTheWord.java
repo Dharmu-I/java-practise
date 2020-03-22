@@ -33,50 +33,26 @@ public class IdentifyTheWord {
     }
 
     public String searchWordInTrie(String searchWord, Trie trie) {
-        String searchString = "";
-        Map<Character, Integer> characterTrieMap = new HashMap<>();
-        for (int index = 0; index < searchWord.length(); index++) {
-            if (characterTrieMap.get(searchWord.charAt(index)) == null) {
-                characterTrieMap.put(searchWord.charAt(index), 1);
+        StringBuilder searchString = new StringBuilder(searchWord);
+        StringBuilder resultString = new StringBuilder();
+        Trie dupTrie = trie;
+        int searchIndex = 0;
+        while (searchIndex < searchString.length()) {
+            if (trie != null && trie.isEnd) {
+                return resultString.toString();
+            }
+            if (trie != null && trie.characterTrieMap.get(searchString.charAt(searchIndex)) != null) {
+                resultString.append(searchString.charAt(searchIndex));
+                trie = trie.characterTrieMap.get(searchString.charAt(searchIndex));
+                searchString.deleteCharAt(searchIndex);
+                searchIndex = 0;
             } else {
-                characterTrieMap.put(searchWord.charAt(index), characterTrieMap.get(searchWord.charAt(index)) + 1);
+                searchIndex++;
             }
         }
-        for (int index = 0; index < searchWord.length(); index++) {
-            if (trie.characterTrieMap.get(searchWord.charAt(index)) != null) {
-                trie = trie.characterTrieMap.get(searchWord.charAt(index));
-                //searchWord.replace(searchWord.charAt(index),'');
-                searchString += searchWord.charAt(index);
-                if (characterTrieMap.get(searchWord.charAt(index)) > 1) {
-                    characterTrieMap.put(searchWord.charAt(index), characterTrieMap.get(searchWord.charAt(index)) - 1);
-                } else {
-                    characterTrieMap.remove(searchWord.charAt(index));
-                }
-                break;
-            }
+        if (trie != null && trie.isEnd) {
+            return resultString.toString();
         }
-        while (trie != null && trie.characterTrieMap != null && !trie.characterTrieMap.isEmpty()) {
-            if (trie.isEnd) {
-                return searchString;
-            }
-            for (char eachChar : trie.characterTrieMap.keySet()) {
-                if (characterTrieMap.get(eachChar) != null) {
-                    trie = trie.characterTrieMap.get(eachChar);
-                    if (characterTrieMap.get(eachChar) > 1) {
-                        characterTrieMap.put(eachChar, characterTrieMap.get(eachChar) - 1);
-                    } else {
-                        characterTrieMap.remove(eachChar);
-                    }
-                    searchString += eachChar;
-                    if (trie != null && trie.isEnd) {
-                        return searchString;
-                    }
-                    break;
-                }
-            }
-
-        }
-
         return "NONE";
     }
 
@@ -120,18 +96,18 @@ public class IdentifyTheWord {
     public String getWordSolutionTwo(String[] words, String searchWord) {
         for (String word : words) {
             StringBuilder stringBuilder = new StringBuilder(searchWord);
-            for (int index = 0; index < word.length(); index++){
+            for (int index = 0; index < word.length(); index++) {
                 int inIndex = 0;
-                while (inIndex < stringBuilder.length()){
-                    if (word.charAt(index) == stringBuilder.charAt(inIndex)){
+                while (inIndex < stringBuilder.length()) {
+                    if (word.charAt(index) == stringBuilder.charAt(inIndex)) {
                         stringBuilder.deleteCharAt(inIndex);
                         break;
-                    }else {
+                    } else {
                         inIndex++;
                     }
                 }
             }
-            if (searchWord.length() - stringBuilder.length() == word.length()){
+            if (searchWord.length() - stringBuilder.length() == word.length()) {
                 return word;
             }
         }
@@ -154,5 +130,10 @@ public class IdentifyTheWord {
         System.out.println(solution.getWordSolutionTwo(words, string2));
         System.out.println(solution.getWordSolutionTwo(words, string3));
         System.out.println(solution.getWordSolutionTwo(words, string4));
+
+//        System.out.println(solution.getWord(words, string1));
+        System.out.println(solution.getWord(words, string2));
+//        System.out.println(solution.getWord(words, string3));
+//        System.out.println(solution.getWord(words, string4));
     }
 }
