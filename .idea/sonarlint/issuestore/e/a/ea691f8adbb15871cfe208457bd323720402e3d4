@@ -1,0 +1,16 @@
+
+m
+java:S3776;"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(Ã÷õÍüÿÿÿÿ
+N	java:S106|"9Replace this use of System.out or System.err by a logger.(à«–
+N	java:S106}"9Replace this use of System.out or System.err by a logger.(Ú¬°À
+S	java:S106~"9Replace this use of System.out or System.err by a logger.(ƒÕÒŒùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ûú–îúÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(­Ñó±ÿÿÿÿÿ
+O	java:S106‚"9Replace this use of System.out or System.err by a logger.(Ö¥Üâ
+T	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(ñÿÉùÿÿÿÿ
+O	java:S106„"9Replace this use of System.out or System.err by a logger.(ØÉª‚
+T	java:S106‡"9Replace this use of System.out or System.err by a logger.(½Ì±éúÿÿÿÿ
+G
+java:S1481&",Remove this unused "dupTrie" local variable.(ñˆÊ¢üÿÿÿÿ
+W	java:S125†"<This block of commented-out lines of code should be removed.(ê¬½æüÿÿÿÿ
+R	java:S125ˆ"<This block of commented-out lines of code should be removed.(¬òÒ
