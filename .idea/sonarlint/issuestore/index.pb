@@ -403,5 +403,3 @@ e
 5src/main/java/com/java/practise/heap/HeapExample.java,c/f/cfe527961e8499a1331d565cb5bb910d845ca9d1
 v
 Fsrc/main/java/com/java/practise/string/GenerateOddCharacterString.java,7/c/7ca79e9d94a699e9a782ff4eab9d17a808fb9634
-e
-5src/main/java/com/java/practise/tree/TrieExample.java,a/b/ab48564eba38df79b102d06249ca861b2473fd99
