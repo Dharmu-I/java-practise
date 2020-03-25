@@ -1,4 +1,4 @@
-package com.java.practise.datacenter;
+package com.java.practise.graph;
 
 public class Iceland {
 
@@ -15,7 +15,7 @@ public class Iceland {
         }
         return count;
     }
-    
+
     private static void dfs(int[][] mat, int i, int j, boolean[][] visited) {
         if (mat[i][j] == 1 && !visited[i][j]) {
             visited[i][j] = true;
