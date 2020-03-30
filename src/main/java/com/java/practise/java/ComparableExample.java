@@ -40,7 +40,7 @@ class Person implements Comparable<Person> {
             return 1;
         }
         if (this.age < o.age) {
-            return -11;
+            return -1;
         }
         return 0;
     }
