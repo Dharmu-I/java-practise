@@ -11,5 +11,7 @@ public class MiniDuckSimulator {
         mallardDuck.display();
         mallardDuck.makeSound();
         mallardDuck.performFly();
+        mallardDuck.setFlyBehavior(new NoFly());
+        mallardDuck.performFly();
     }
 }
