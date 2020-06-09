@@ -1,6 +1,6 @@
 
+P
+java:S1144"3Remove this unused private "collectAllLogs" method.(¦ÓÄ…8ûíºÅ•.
 U	java:S1060"9Replace this use of System.out or System.err by a logger.(õŒ®Ù8ÀÃÅ•.
 j
 java:S2272"NAdd a "NoSuchElementException" for iteration beyond the end of the collection.(Ì­åR8Œ¥Ä•.
-P
-java:S1144"3Remove this unused private "collectAllLogs" method.(¦ÓÄ…8ûíºÅ•.
