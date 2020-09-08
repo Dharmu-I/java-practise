@@ -3,15 +3,10 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="java-practise" />
-      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="java-practise" target="8" />
+      <module name="tambola" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
