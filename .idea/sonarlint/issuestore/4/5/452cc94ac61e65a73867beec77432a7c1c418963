@@ -1,0 +1,16 @@
+
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(æŞùÿÿÿÿ8óàıÁÈ.
+U	java:S106F"9Replace this use of System.out or System.err by a logger.(Å­÷±8˜Ë‘ÄÈ.
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(æ¢Êÿÿÿÿÿ8£óÄÈ.
+Z	java:S106B"9Replace this use of System.out or System.err by a logger.(Ö¶üÁüÿÿÿÿ8ä÷ÙÁÈ.
+U	java:S106I"9Replace this use of System.out or System.err by a logger.(éê‹†8—«”ÄÈ.
+>
+java:S16597"!Declare "rev" on a separate line.(¾Çß8éâ‡ÅÈ.
+Z	java:S106E"9Replace this use of System.out or System.err by a logger.(’“ç›ùÿÿÿÿ8˜Ë‘ÄÈ.
+U	java:S106C"9Replace this use of System.out or System.err by a logger.(Ïæ·‹8ˆÌÄ¿È.
+Z	java:S106H"9Replace this use of System.out or System.err by a logger.(£•€¨øÿÿÿÿ8’ã“ÄÈ.
+U	java:S106G"9Replace this use of System.out or System.err by a logger.( Şì8Ò—“ÄÈ.
+U	java:S106@"9Replace this use of System.out or System.err by a logger.(·²­³8´óÄÈ.
+Z	java:S106J"9Replace this use of System.out or System.err by a logger.(‹ŒÂÅüÿÿÿÿ8õŠŸÄÈ.
+U	java:S106A"9Replace this use of System.out or System.err by a logger.(ãñ”Ô8­¡æ¿È.

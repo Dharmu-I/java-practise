@@ -1,0 +1,10 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÀÓí½
+D
+java:S1481".Remove this unused "posTarget" local variable.(ô½Â
+O
+java:S3516"9Refactor this method to not always return the same value.(ıÛÖŠ
+I
+java:S1481".Remove this unused "negTarget" local variable.(áéœİüÿÿÿÿ
+E
+java:S1481"*Remove this unused "jumps" local variable.(Ã÷üğÿÿÿÿÿ
