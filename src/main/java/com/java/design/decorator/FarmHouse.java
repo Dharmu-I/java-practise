@@ -1,4 +1,4 @@
-package com.java.design;
+package com.java.design.decorator;
 
 public class FarmHouse extends Pizza {
 
